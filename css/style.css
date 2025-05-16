@@ -26,7 +26,7 @@ h1 {
     width: 1100px;
     height: 480px;
     border: transparent 1px;
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -66,6 +66,7 @@ h1 {
     height: 510px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 #logo-1 {
@@ -87,6 +88,32 @@ h1 {
     border-radius: 25px;
 }
 
-#about-me-link{
+#feathers {
+    margin-top: 100px;
+}
 
+#skills {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c3e8f7;
+    width: 300px;
+    height: 400px;
+    justify-content: space-around;
+    border-radius: 25px;
+    margin-left: -400px;
+}
+
+#skills-header {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+#skills-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
