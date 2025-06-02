@@ -85,7 +85,7 @@ h1 {
     padding-right: 20px;
 }
 
-#portfolio-header {
+.portfolio-header {
     margin-top: 100px;
     background-color: #6388c6;
     width: 200px;
@@ -188,7 +188,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #82C668;
+    background-color: #FEF07C;
     width: 240px;
     margin-top: 55px;
     padding: 30px;
@@ -199,6 +199,26 @@ h1 {
     margin-top: 300px;
 }
 
+#experience-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #c3e8f7;
+    width: 300px;
+    height: 550px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.exp {
+    margin-top: 0px;
+    /* margin-left: 10px; */
+    padding: 20px;
+}
 
 /* #button:hover {
     background-color: #6388c6;
